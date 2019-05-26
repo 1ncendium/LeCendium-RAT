@@ -1,0 +1,10 @@
+C:\Users\remco\source\repos\FreeSpyWare2\FreeSpyWare2\bin\Debug\FreeSpyWare2.exe.config
+C:\Users\remco\source\repos\FreeSpyWare2\FreeSpyWare2\bin\Debug\FreeSpyWare2.exe
+C:\Users\remco\source\repos\FreeSpyWare2\FreeSpyWare2\bin\Debug\FreeSpyWare2.pdb
+C:\Users\remco\source\repos\FreeSpyWare2\FreeSpyWare2\obj\Debug\FreeSpyWare2.csprojAssemblyReference.cache
+C:\Users\remco\source\repos\FreeSpyWare2\FreeSpyWare2\obj\Debug\FreeSpyWare2.GratisGeld.resources
+C:\Users\remco\source\repos\FreeSpyWare2\FreeSpyWare2\obj\Debug\FreeSpyWare2.Properties.Resources.resources
+C:\Users\remco\source\repos\FreeSpyWare2\FreeSpyWare2\obj\Debug\FreeSpyWare2.csproj.GenerateResource.cache
+C:\Users\remco\source\repos\FreeSpyWare2\FreeSpyWare2\obj\Debug\FreeSpyWare2.csproj.CoreCompileInputs.cache
+C:\Users\remco\source\repos\FreeSpyWare2\FreeSpyWare2\obj\Debug\FreeSpyWare2.exe
+C:\Users\remco\source\repos\FreeSpyWare2\FreeSpyWare2\obj\Debug\FreeSpyWare2.pdb
