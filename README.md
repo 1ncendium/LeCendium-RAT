@@ -12,4 +12,3 @@ Het 'Gratis Geld' programma is gemaakt in C#. Ook hier zijn de code bestanden va
 ### Editen naar persoonlijke voorkeuren
 - Voor het editen naar persoonlijke voorkeuren, heb je de bovenstaande vereisten nodig.
 
-1 | Open GratisGeld.C
