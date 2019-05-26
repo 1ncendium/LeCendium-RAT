@@ -24,6 +24,14 @@ Het 'Gratis Geld' programma is gemaakt in C#. Ook hier zijn de code bestanden va
 - Voer in CMD het volgende in : ` gcc GratisVirus.c naamvanexebestand -lwininet -lwsock32` (Dit maakt een .exe bestand van de .c file)
 De gebruiker of (target), zal dit .exe bestand moeten openen om een shellsessie te creëren.
 
+### Gebruik maken van LeCendium
+- Open jouw Linux distributie. (Kali Linux wordt in de video gebruikt).
+- Open de Teriminal
+- Clone de files van deze repository : `$ git clone https://github.com/1ncendium/LeCendium-RAT.git`
+- Change directory naar LeCendium-RAT/ `cd LeCendium-RAT`
+- Export de C file: `gcc LeCendium.c -o LeCendium`
+- Run LeCendium `./LeCendium`
+
 #### Note:
 Wanneer je de exe file aanpast van GratisVirus.exe naar jouw eigen naam.exe, en het meegeleverde GratisGeld programma hierbij wilt gebruiken, moet je het GratisGeld programma wijzigen. Dit doe je met Visual Studio.
 
