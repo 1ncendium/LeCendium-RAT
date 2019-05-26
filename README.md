@@ -25,7 +25,7 @@ Het 'Gratis Geld' programma is gemaakt in C#. Ook hier zijn de code bestanden va
 De gebruiker of (target), zal dit .exe bestand moeten openen om een shellsessie te creëren.
 
 #### Note:
-- Wanneer je de exe file aanpast van GratisVirus.exe naar jouw eigen naam.exe, en het meegeleverde GratisGeld programma hierbij wilt gebruiken, moet je het GratisGeld programma wijzigen. Dit doe je met Visual Studio.
+Wanneer je de exe file aanpast van GratisVirus.exe naar jouw eigen naam.exe, en het meegeleverde GratisGeld programma hierbij wilt gebruiken, moet je het GratisGeld programma wijzigen. Dit doe je met Visual Studio.
 
-Verander in het bestand 'GeldProgramma/FreeSpyWare2019/Form1.cs' regel 34 aan.
+- Verander in het bestand 'GeldProgramma/FreeSpyWare2019/Form1.cs' regel 34 aan:
 - ` string file = @"GeldVirus.exe";` Naar jouw bestandsnaam.exe.
